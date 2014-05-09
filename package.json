@@ -4,8 +4,11 @@
   "description": ".env file support in Atom",
   "repository": "https://github.com/rjocoleman/language-dotenv",
   "license": "MIT",
+  "main": "./lib/main",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "emissary": "1.x"
+  }
 }
