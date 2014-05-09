@@ -1,6 +1,6 @@
 {
   "name": "language-dotenv",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": ".env file support in Atom",
   "repository": "https://github.com/rjocoleman/language-dotenv",
   "license": "MIT",
