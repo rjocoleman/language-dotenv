@@ -1,0 +1,11 @@
+{
+  "name": "language-dotenv",
+  "version": "0.1.0",
+  "description": ".env file support in Atom",
+  "repository": "https://github.com/rjocoleman/language-dotenv",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
