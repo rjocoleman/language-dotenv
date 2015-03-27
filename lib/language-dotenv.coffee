@@ -17,5 +17,5 @@ module.exports =
       filename = @editorView.getEditor().getBuffer().getBaseName()
       if filename in atom.config.get('language-dotenv.dotenvFileNames')
         path = @editorView.getEditor().getPath()
-        atom.syntax.setGrammarOverrideForPath(path, 'source.dotenv')
+        atom.grammars.setGrammarOverrideForPath(path, 'source.dotenv')
         @editorView.editor.reloadGrammar()
