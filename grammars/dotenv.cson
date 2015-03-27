@@ -5,6 +5,24 @@
 ]
 'patterns': [
   {
+    'match': '^(?:(export)\\s+)?(?:([\\w\\.]+)(?:\\s*(=)\\s*)(?:([^\'"#\\s\\n]+)|(\'(?:\\\'|[^\'])*\')|(\"(?:\\\"|[^\"])*\"))?\\s*|\\s+)(?:\\s*(#.*))?$'
+    'captures':
+      '1':
+        'name': 'storage.modifier.export.dotenv'
+      '2':
+        'name': 'constant.language.dotenv'
+      '3':
+        'name': 'keyword.operator.dotenv'
+      '4':
+        'name': 'string.dotenv'
+      '5':
+        'name': 'string.quoted.single.dotenv'
+      '6':
+        'name': 'string.quoted.double.dotenv'
+      '7':
+        'name': 'comment.dotenv'
+  },
+  {
     'match': '^#.*$'
     'name': 'comment.line.dotenv'
   }
