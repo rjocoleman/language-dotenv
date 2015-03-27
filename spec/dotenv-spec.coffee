@@ -6,7 +6,7 @@ describe "dotenv file grammar", ->
       atom.packages.activatePackage("language-dotenv")
 
     runs ->
-      grammar = atom.syntax.grammarForScopeName("source.dotenv")
+      grammar = atom.grammars.grammarForScopeName("source.dotenv")
 
   it "parses the grammar", ->
     expect(grammar).toBeDefined()
